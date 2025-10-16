@@ -1,0 +1,459 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.6">
+  <diagram name="페이지-1" id="MsWtxXF_KhBdhbXFgmeo">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-31" value="&lt;b&gt;회원 컨텍스트&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(사용자 식별과 접근 제어 기능 담당)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=20;labelBackgroundColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="829" width="845" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=13;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1585" y="869" width="510" height="274" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-1" value="&lt;b&gt;문제 컨텍스트&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;(문제 생성, 관리, 구성 등 문제의 생명주기 관리)&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="310" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-2" value="&lt;b&gt;학습 컨텍스트&lt;/b&gt;&lt;div style=&quot;&quot;&gt;(사용자의 학습 활동 기록, 결과 제공, 분석 등 사용자의 문제 풀이에 집중)&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="465" y="300" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-3" value="&lt;b&gt;커뮤니티 컨텍스트&lt;/b&gt;&lt;div style=&quot;&quot;&gt;(사용자들이 문제를 중심으로 의견을 나누는 소셜 기능을 담당)&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="740" y="300" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-4" value="&lt;b&gt;사용자 컨텍스트&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(사용자 식별과 접근 제어 기능 담당)&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="465" y="60" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-20" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="PKuFhGzARFf-FMY3GpzC-1" target="PKuFhGzARFf-FMY3GpzC-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="350" as="sourcePoint" />
+            <mxPoint x="467" y="129" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-21" value="User&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ID 참조&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelPosition=center;verticalLabelPosition=middle;" connectable="0" vertex="1" parent="PKuFhGzARFf-FMY3GpzC-20">
+          <mxGeometry x="-0.1937" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="PKuFhGzARFf-FMY3GpzC-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="300" as="sourcePoint" />
+            <mxPoint x="620" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-23" value="User ID 참조" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="PKuFhGzARFf-FMY3GpzC-22">
+          <mxGeometry x="0.425" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-24" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="PKuFhGzARFf-FMY3GpzC-3" target="PKuFhGzARFf-FMY3GpzC-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="350" as="sourcePoint" />
+            <mxPoint x="620" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-25" value="User ID 참조" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="PKuFhGzARFf-FMY3GpzC-24">
+          <mxGeometry x="-0.3104" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-26" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="PKuFhGzARFf-FMY3GpzC-1" target="PKuFhGzARFf-FMY3GpzC-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="350" as="sourcePoint" />
+            <mxPoint x="620" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="360" />
+              <mxPoint x="360" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-27" value="Problem ID 참조" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="PKuFhGzARFf-FMY3GpzC-26">
+          <mxGeometry x="-0.1355" y="-2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-28" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="PKuFhGzARFf-FMY3GpzC-3" target="PKuFhGzARFf-FMY3GpzC-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="350" as="sourcePoint" />
+            <mxPoint x="620" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="530" />
+              <mxPoint x="210" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-29" value="Problem ID 참조" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="PKuFhGzARFf-FMY3GpzC-28">
+          <mxGeometry x="0.406" y="4" relative="1" as="geometry">
+            <mxPoint x="141" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-42" value="" style="group;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="1305" y="843" width="270" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=10;fontStyle=0;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="PKuFhGzARFf-FMY3GpzC-42">
+          <mxGeometry y="26" width="270" height="274" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-41" value="&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;User (A)&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="PKuFhGzARFf-FMY3GpzC-42">
+          <mxGeometry x="72.14285714285714" width="125.71428571428572" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shPgueR0WQTtjMKLrGVW-8" value="&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;속성&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id: string (Aggregate Root의 고유 식별자)&lt;/span&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;authInfo:&amp;nbsp;&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AuthenticationInfo&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal;&quot; class=&quot;s1&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal;&quot; class=&quot;s1&quot;&gt;(VO -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal;&quot; class=&quot;s2&quot;&gt;인증&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal;&quot; class=&quot;s1&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal;&quot; class=&quot;s2&quot;&gt;정보&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal;&quot; class=&quot;s1&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;profile: UserProfile (VO - 프로필 정보)&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;role: Role (VO - Enum: 사용자 권한)&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;createdAt: Date&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;updatedAt: Date&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;------------------------------------------&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;&lt;b&gt;메서드&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;static signUp(&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); background-color: transparent;&quot;&gt;id: string, email: Email, password: HashedPassword, nickname: Nickname, imageUrl?: string&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(63, 63, 63));&quot;&gt;): User // 회원가입&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;changePassword(oldPassword: HashedPassword, newPassword:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(63, 63, 63));&quot;&gt;HashedPassword&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(63, 63, 63));&quot;&gt;): void // 비밀번호 변경&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;updateProfile(newNickname: Nickname, newImageUrl?: string): void // 프로필 업데이트&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="PKuFhGzARFf-FMY3GpzC-42">
+          <mxGeometry x="10" y="56" width="250" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="shPgueR0WQTtjMKLrGVW-9" value="&lt;span&gt;&lt;b&gt;User (E, AR)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="PKuFhGzARFf-FMY3GpzC-42">
+          <mxGeometry x="97.5" y="30" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shPgueR0WQTtjMKLrGVW-1" value="&lt;b&gt;문제 컨텍스트&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;font&gt;(문제 생성, 관리, 구성 등 문제의 생명주기 관리)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;labelBackgroundColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1320" width="820" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="shPgueR0WQTtjMKLrGVW-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=13;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1716" width="760" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="shPgueR0WQTtjMKLrGVW-13" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 13px; font-weight: 700;&quot;&gt;Value Object (VO)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1690" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shPgueR0WQTtjMKLrGVW-14" value="type: ProblemType (VO - Enum: 문제 유형)&lt;div&gt;text: string (문제 텍스트)&lt;/div&gt;&lt;div&gt;choices?: string[] (객관식 문제 선택지)&lt;/div&gt;&lt;div&gt;answer: string[] (문제 정답)&lt;/div&gt;&lt;div&gt;explanation: string (문제 해설)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1746" width="240" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="shPgueR0WQTtjMKLrGVW-15" value="&lt;b&gt;ProblemContent&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1720" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shPgueR0WQTtjMKLrGVW-16" value="examCategory: string (시험의 종류)&lt;div&gt;tages: string[] (세부 주제나 키워드를 나타내는 태그)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1846" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="shPgueR0WQTtjMKLrGVW-17" value="&lt;b&gt;ProblemMetaData&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="1820" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N6FrSTjMxa2wTwIiNfn_-1" value="value: string (사용자의 아이디)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1916" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="N6FrSTjMxa2wTwIiNfn_-2" value="&lt;b&gt;ProblemCreatorId&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="1890" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N6FrSTjMxa2wTwIiNfn_-3" value="{&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DRAFT: (초안, 임시 저장),&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PUBLIC: (공개 게시),&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;PRIVATE: (비공개 게시),&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DELETED: (삭제됨)&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1746" width="240" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="N6FrSTjMxa2wTwIiNfn_-4" value="&lt;b&gt;ProblemStatus&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="432.5" y="1720" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N6FrSTjMxa2wTwIiNfn_-5" value="{&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;SINGLE_CHOICE: (단일선택 객관식),&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;MULTIPLE_CHOICE: (복수선택 객관식),&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;SHORT_ANSWER: (주관식)&lt;br&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1856" width="240" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="N6FrSTjMxa2wTwIiNfn_-6" value="&lt;b&gt;ProblemType&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="432.5" y="1830" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shPgueR0WQTtjMKLrGVW-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=10;fontStyle=0;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1360" width="350" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="shPgueR0WQTtjMKLrGVW-4" value="&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Problem (A)&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="172.1428571428571" y="1334" width="125.71428571428572" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shPgueR0WQTtjMKLrGVW-10" value="&lt;div&gt;&lt;b style=&quot;font-size: 10px;&quot;&gt;속성&lt;/b&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id: string (Aggregate Root의 고유 식별자)&lt;/span&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;content: ProblemContent (VO - 문제 내용)&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;metaData: ProblemMetaData (VO - 문제 관련 메타 정보)&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;creatorId: ProblemCreatorId (VO - 문제를 만든 사람 ID)&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;status: ProblemStatus (VO - Enum: 문제 상태)&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;createdAt: Date&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;updatedAt: Date&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;deletedAt: Date&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;------------------------------------------&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;b&gt;메서드&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;static createSingleChoiceProblem(): Problem // 객관식 문제 생성 (답 하나)&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;static createMultipleChoiceProblem(): Problem // 객관식 문제 생성 (답 여러개)&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;static createShortAnswerProblem(): Problem // 주관식 문제 생성&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;updateContent(newContent: ProblemContent): void // 문제 업데이트&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;draft(): void // 초안, 임시 저장&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;publish(): void // 공개 게시&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;private(): void // 비공개 게시&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;delete(): void // 문제 삭제&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1386" width="330" height="274" as="geometry" />
+        </mxCell>
+        <mxCell id="shPgueR0WQTtjMKLrGVW-11" value="&lt;span&gt;&lt;b&gt;Problem (E, AR)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="188.75" y="1360" width="92.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_b3plJnClvgKdr49QCG-6" value="value: string (사용자의 아이디)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1856" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="E_b3plJnClvgKdr49QCG-7" value="&lt;b&gt;ProblemSetCreatorId&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1830" width="97.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_b3plJnClvgKdr49QCG-8" value="{&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DRAFT: (초안, 임시 저장),&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PUBLIC: (공개 게시),&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;PRIVATE: (비공개 게시),&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DELETED: (삭제됨)&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1746" width="240" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="E_b3plJnClvgKdr49QCG-9" value="&lt;b&gt;ProblemSetStatus&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="682.5" y="1720" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shPgueR0WQTtjMKLrGVW-6" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=10;fontStyle=0;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1360" width="310" height="309" as="geometry" />
+        </mxCell>
+        <mxCell id="shPgueR0WQTtjMKLrGVW-7" value="&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;ProblemSet (A)&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="562.1428571428571" y="1334" width="125.71428571428572" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_b3plJnClvgKdr49QCG-4" value="&lt;div&gt;&lt;b style=&quot;font-size: 10px;&quot;&gt;속성&lt;/b&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id: string (Aggregate Root의 고유 식별자)&lt;/span&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;title: string (문제집 제목)&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;problemIds: ProblemId[] (문제의 ID를 순서대로 가지는 배열)&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;creatorId: ProblemSetCreatorId (VO - 문제를 만든 사람 ID)&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;status: ProblemSetStatus (VO - Enum: 문제 상태)&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;createdAt: Date&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;updatedAt: Date&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;deletedAt: Date&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;------------------------------------------&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;b&gt;메서드&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;static createProblemSet(): ProblemSet // 문제집 생성&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;updateProblemTitle(newTitle: string): void // 문제집 제목 업데이트&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;updateProblems(newProblemIds: ProblemIds): void // 문제 구성 수정&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;draft(): void // 초안, 임시 저장&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;publish(): void // 공개 게시&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;private(): void // 비공개 게시&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;delete(): void // 문제집 삭제&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1386" width="290" height="263" as="geometry" />
+        </mxCell>
+        <mxCell id="E_b3plJnClvgKdr49QCG-5" value="&lt;span&gt;&lt;b&gt;ProblemSet (E, AR)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="569.3800000000001" y="1360" width="111.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_b3plJnClvgKdr49QCG-10" value="User ID 참조" style="endArrow=classic;html=1;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;dashed=1;fontSize=20;labelBorderColor=none;textShadow=0;" edge="1" parent="1" source="shPgueR0WQTtjMKLrGVW-1" target="PKuFhGzARFf-FMY3GpzC-31">
+          <mxGeometry x="-0.0017" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="870" as="sourcePoint" />
+            <mxPoint x="1480" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="999" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-40" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 13px; font-weight: 700;&quot;&gt;Value Object (VO)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="843" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-44" value="" style="group;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="1595" y="873" width="240" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-36" value="&lt;span&gt;email: Email (VO - 이메일 정보)&lt;/span&gt;&lt;div&gt;password: HashedPassword (VO - 해싱된 비밀번호)&lt;/div&gt;&lt;div&gt;provider: Provider&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(VO - Enum: 정보 제공자)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="PKuFhGzARFf-FMY3GpzC-44">
+          <mxGeometry y="26" width="240" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-38" value="&lt;span&gt;&lt;b&gt;AuthenticationInfo&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="PKuFhGzARFf-FMY3GpzC-44">
+          <mxGeometry x="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-46" value="nickname: Nickname (VO - 서비스에서 사용할 닉네임)&lt;div&gt;imageUrl: string (프로필 이미지 URL, 선택)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="PKuFhGzARFf-FMY3GpzC-44">
+          <mxGeometry y="122" width="240" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-47" value="&lt;span&gt;&lt;b&gt;UserProfile&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="PKuFhGzARFf-FMY3GpzC-44">
+          <mxGeometry x="90" y="96" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-48" value="{&lt;br&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;USER: (일반 사용자),&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;ADMIN: (관리자)&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1595" y="1065" width="240" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-49" value="&lt;b&gt;Role&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1685" y="1039" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-51" value="value: string (이메일 정보)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1845" y="899" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-52" value="&lt;span&gt;&lt;b&gt;Email&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1935" y="873" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-53" value="value: string (해싱된 비밀번호)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1845" y="949" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-54" value="&lt;b&gt;HashedPassword&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="923" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-55" value="{&lt;br&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;LOCAL: (로컬 서비스 로그인),&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;GOOGLE: (구글 로그인),&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;NAVER: (네이버 로그인)&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1845" y="1049" width="240" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-56" value="&lt;b&gt;Provider&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1935" y="1023" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-59" value="&lt;b&gt;Nickname&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1935" y="973" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PKuFhGzARFf-FMY3GpzC-58" value="value: string (서비스에서 사용할 닉네임)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1845" y="999" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="E_b3plJnClvgKdr49QCG-12" value="&lt;b&gt;학습 컨텍스트&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff&quot;&gt;(사용자의 학습 활동 기록, 결과 제공, 분석 등 사용자의 문제 풀이에 집중)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;labelBackgroundColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="1320" width="845" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="E_b3plJnClvgKdr49QCG-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=10;fontStyle=0;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1287.5" y="1366" width="270" height="524" as="geometry" />
+        </mxCell>
+        <mxCell id="E_b3plJnClvgKdr49QCG-15" value="&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;SolvingSession (A)&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="1359.642857142857" y="1340" width="125.71428571428572" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_b3plJnClvgKdr49QCG-16" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;속성&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id: string (Aggregate Root의 고유 식별자)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;learnerId: LearnerId (VO - 문제를 푸는 사람 ID)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;sessionType: SessionType (VO - Enum: 문제 세션 유형)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;problemSetId?: ProblemSetId | null (문제집 ID)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;problemIds: ProblemId[] (세션에 포함된 문제 ID)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;status: SessionStatus (VO - Enum: 세션 상태)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;startedAt: Date&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;completedAt: Date&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;submittedAnswers: SubmittedAnswer[]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;correctCount: number&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;incorrectCount: number&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;------------------------------------------&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;&lt;b&gt;메서드&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;static start(params: &lt;u&gt;StartSessionParams&lt;/u&gt;): SolvingSession // 새로운 문제 세션을 시작하고, SolvingSession 애그리게이트를 생성하여 반환&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;submitAnswer(problemId: ProblemId, userAnswer: string[]): void // 특정 문제에 대한 사용자의 답안을 기록&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;complete(answerKey: &lt;u&gt;Map&amp;lt;ProblemId, string[]&amp;gt;&lt;/u&gt;): void // 진행 중인 세션을 채점하고 세션을 완료 상태로 전환&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;cancel(): void // 사용자가 중간에 문제 풀이를 포기했을 때 세션을 취소 상태로 전환&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="1297.5" y="1396" width="250" height="344" as="geometry" />
+        </mxCell>
+        <mxCell id="E_b3plJnClvgKdr49QCG-17" value="&lt;b style=&quot;color: rgb(51, 51, 51); font-size: 13px;&quot;&gt;SolvingSession&lt;/b&gt;&lt;span&gt;&lt;b&gt;&amp;nbsp;(E, AR)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1356.25" y="1370" width="132.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=10;fontStyle=0;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="1366" width="270" height="274" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-2" value="&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;UserLearningSummary (A)&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="1637.32" y="1340" width="155.36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-3" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;속성&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;learnerId: LearnerId (VO - 문제를 푸는 사람 ID, Aggregate Root의 고유 식별자)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;categoryProgress: &lt;u&gt;Map&amp;lt;string, CategoryProgress&amp;gt;&lt;/u&gt; (카테고리 별 학습 진척도)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;------------------------------------------&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;&lt;b&gt;메서드&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;updateProgress(sessionResults: &lt;u&gt;SessionResultItem[]&lt;/u&gt;): void // 완료된 풀이 세션의 결과를 받아 모든 관련 통계(카테고리, 태그)를 한 번에 업데이트&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="1396" width="250" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-4" value="&lt;b style=&quot;color: rgb(51, 51, 51); font-size: 13px;&quot;&gt;UserLearningSummary&lt;/b&gt;&lt;span&gt;&lt;b&gt;&amp;nbsp;(E, AR)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1628.13" y="1370" width="173.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-5" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;속성&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;problemId: ProblemId (문제 ID)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;userAnswer: string[] (사용자가 제출한 답)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;isCorrect: boolean (정답 여부)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;submittedAt: Date (제출한 날짜)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="1297.5" y="1780" width="250" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-6" value="&lt;b style=&quot;color: rgb(51, 51, 51); font-size: 13px;&quot;&gt;SubmittedAnswer&lt;/b&gt;&lt;span&gt;&lt;b&gt;&amp;nbsp;(E)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1346.88" y="1750" width="151.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-9" value="StartSessionParams:&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sessionId: SessionId (VO - 새로 생성된 세션 ID)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;learnerId: LearnerId (VO - 문제를 푸는 사람 ID)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sessionType: SessionType (VO - Enum: 세션 유형)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;problemSetId?: ProblemSetId&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; (VO - sessionType이 PROBLEM_SET 일 때만)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;problemIds: ProblemId[]&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=10;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="977.5" y="1510" width="284" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=13;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="1726" width="510" height="274" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-11" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 13px; font-weight: 700;&quot;&gt;Value Object (VO)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="1700" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-12" value="{&lt;br&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;PROBLEM_SET: (문제집),&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;RANDOM_PRACTICE: (랜덤 연습)&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1587.5" y="1756" width="240" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-13" value="&lt;b&gt;SessionType&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1677.5" y="1730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-14" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" edge="1" parent="1" source="bZW7KsKNTVgmID3ADT1Y-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1267.5" y="1680" as="sourcePoint" />
+            <mxPoint x="1380.5" y="1623" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-15" value="Key: 카테고리 이름&lt;div&gt;Value: CategoryProgress 값 객체&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1857.5" y="1410" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-16" value="Key: 문제 ID&lt;div&gt;Value: 정답&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1177.5" y="1655" width="77" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="bZW7KsKNTVgmID3ADT1Y-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1257.5" y="1680" as="sourcePoint" />
+            <mxPoint x="1391.5" y="1685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="bZW7KsKNTVgmID3ADT1Y-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1857.5" y="1538" as="sourcePoint" />
+            <mxPoint x="1813.5" y="1447" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-19" value="overallStats: Stats (VO - 해당 카테고리의 전체 통계)&lt;div&gt;tagStats: &lt;u&gt;Map&amp;lt;string, Stats&amp;gt;&lt;/u&gt; (해당 카테고리 내 태그 별 세부 통계)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="1756" width="240" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-20" value="&lt;b&gt;CategoryProgress&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="1730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-21" value="Key: 태그 이름&lt;div&gt;Value: 해당 태그에 대한 통계&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1867.5" y="1830" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="bZW7KsKNTVgmID3ADT1Y-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1987.5" y="1830" as="sourcePoint" />
+            <mxPoint x="1931.5" y="1788" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-23" value="totalSolvedCount: number (푼 총 문제 수)&lt;div&gt;correctAnswersCount: number (맞춘 문제 수)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1587.5" y="1846" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-24" value="&lt;b&gt;Stats&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1677.5" y="1820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-25" value="SessionResultItem:&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;category: string,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;tags: string[],&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;isCorrect: boolean&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1857.5" y="1480" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="bZW7KsKNTVgmID3ADT1Y-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1890" y="1653" as="sourcePoint" />
+            <mxPoint x="1779.5" y="1526" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-28" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1275" y="1426.004435318275" as="sourcePoint" />
+            <mxPoint x="890" y="1418.0988911704314" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZW7KsKNTVgmID3ADT1Y-29" value="Problem ID, ProblemSet ID 참조" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" connectable="0" vertex="1" parent="bZW7KsKNTVgmID3ADT1Y-28">
+          <mxGeometry x="0.0078" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rZk3A2OD2TyaEHmGnw7G-2" value="로그인 방법: 자체 로그인, 구글 로그인&lt;div&gt;필요 정보: 이메일, 비밀번호(소셜 로그인 사용 시 필요 X), 닉네임, 프로필 이미지&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="828" width="230" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="rZk3A2OD2TyaEHmGnw7G-3" value="&lt;div&gt;문제와 문제집은 기본적으로 공개(&lt;span style=&quot;font-family: Pretendard-Thin; font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PUBLIC&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) 상태로 게시됨.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;문제 비공개 게시 할당량: 300개&lt;/div&gt;&lt;div&gt;문제집 비공개 게시 할당량: 5개&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1324" width="230" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="ecMGSHJZTJKC44dxE6s0-1" value="&lt;b&gt;커뮤니티 컨텍스트&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; text-align: center;&quot;&gt;&lt;font&gt;(사용자들이 문제를 중심으로 의견을 나누는 소셜 기능을 담당)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;labelBackgroundColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="1320" width="845" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ecMGSHJZTJKC44dxE6s0-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=10;fontStyle=0;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="1360" width="800" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ecMGSHJZTJKC44dxE6s0-4" value="&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;ProblemOpinion (A)&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="2841.0699999999997" y="1330" width="137.86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecMGSHJZTJKC44dxE6s0-5" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;속성&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;problemId: string (문제 ID, Aggregate Root의 고유 식별자)&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 10px;&quot;&gt;opinions&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;: Opinion[] (사용자들이 제출한 문제에 대한 의견)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;------------------------------------------&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;&lt;b&gt;메서드&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;static startFor(problemId): ProblemOpinion // 특정 문제에 대한 토론 공간 생성&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;postOpinion(authorId, submittedAnswer, reason): void // 새로운 의견 생성&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;editOpinion(opinionId, newOpinion): void // 특정 의견을 수정&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;deleteOpinion(opinionId): void // 특정 의견을 삭제&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;toggleUpvoteOnOpinion(opinionId, voterId): void // 특정 의견에 좋아요&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;replyToOpinion(opinionId, authorId, content): void // 특정 의견에 답글을 생성&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;editReply(replyId, newContent): void // 답글 수정&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;deleteReply(replyId): void // 답글 삭제&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); font-size: 10px;&quot;&gt;toggleUpvoteOnReply(replyId, voterId): void // 특정 답글에 좋아요&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="1390" width="280" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ecMGSHJZTJKC44dxE6s0-6" value="&lt;b style=&quot;color: rgb(51, 51, 51); font-size: 13px;&quot;&gt;ProblemOpinion&lt;/b&gt;&lt;span&gt;&lt;b&gt;&amp;nbsp;(E, AR)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2579.38" y="1364" width="161.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-1" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;속성&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id: string (사용자 의견 고유 식별자)&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;authorId: string (의견 작성자 ID)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;sumittedAnswer: string[] (작성자가 정답이라고 생각하는 답)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;reason: string (정답이라 생각한 이유)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;upvoteCount: number (좋아요 수)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;upvotes: Upvote[] (좋아요를 누른 사람들에 대한 기록)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;replies: Reply[] (이 의견에 대한 답글)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;createdAt: Date (생성 날짜)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;updatedAt: Date (수정 날짜)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="2820" y="1390" width="270" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-2" value="&lt;b style=&quot;color: rgb(51, 51, 51); font-size: 13px;&quot;&gt;Opinion&lt;/b&gt;&lt;span&gt;&lt;b&gt;&amp;nbsp;(E)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2874.37" y="1364" width="161.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-3" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;속성&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id: string (답글 고유 식별자)&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;authorId: string (답글 작성자 ID)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;content: string (답글 내용)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;upvoteCount: number (좋아요 수)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;upvotes: Upvote[] (좋아요를 누른 사람들에 대한 기록)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;createdAt: Date (생성 날짜)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;updatedAt: Date (수정 날짜)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="2820" y="1580" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-4" value="&lt;span&gt;&lt;b&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Reply&lt;/span&gt;&lt;/font&gt; (E)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2874.37" y="1554" width="161.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-5" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;속성&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;voterId: string (좋아요를 누른 사용자의 ID)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;votedAt: (좋아요를 누른 날짜)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;" vertex="1" parent="1">
+          <mxGeometry x="3109.38" y="1428" width="180.62" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-6" value="&lt;span&gt;&lt;b&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Upvote&lt;/span&gt;&lt;/font&gt; (E)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Pretendard-Thin;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Thin.woff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="3119.0600000000004" y="1396" width="161.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-8" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="E_b3plJnClvgKdr49QCG-12" target="PKuFhGzARFf-FMY3GpzC-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1630" y="1250" as="sourcePoint" />
+            <mxPoint x="1680" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-9" value="User ID 참조" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" connectable="0" vertex="1" parent="60bCUKakeSznrIy-q_9s-8">
+          <mxGeometry x="0.0519" relative="1" as="geometry">
+            <mxPoint x="2" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-10" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="ecMGSHJZTJKC44dxE6s0-1" target="PKuFhGzARFf-FMY3GpzC-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2510" y="1430" as="sourcePoint" />
+            <mxPoint x="2560" y="1380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2913" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-11" value="User ID 참조" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" connectable="0" vertex="1" parent="60bCUKakeSznrIy-q_9s-10">
+          <mxGeometry x="0.1536" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-12" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="ecMGSHJZTJKC44dxE6s0-1" target="shPgueR0WQTtjMKLrGVW-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2270" y="1780" as="sourcePoint" />
+            <mxPoint x="2320" y="1730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2913" y="2150" />
+              <mxPoint x="480" y="2150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-13" value="Problem ID 참조" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" connectable="0" vertex="1" parent="60bCUKakeSznrIy-q_9s-12">
+          <mxGeometry x="0.119" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="60bCUKakeSznrIy-q_9s-14" target="60bCUKakeSznrIy-q_9s-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-14" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Presentation Layer&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;(Controller, Router, DTO)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1498.13" y="190" width="281.87" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="60bCUKakeSznrIy-q_9s-16" target="60bCUKakeSznrIy-q_9s-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-16" value="Application Layer&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;(Application Service, Command/Query, DTO)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1498.13" y="290" width="281.87" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="60bCUKakeSznrIy-q_9s-17" target="60bCUKakeSznrIy-q_9s-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-17" value="Domain Layer&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;(Aggregate Root, Entity, Value Object, Domain Service, Repository Interface, Domain Event)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1498.13" y="380" width="281.87" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60bCUKakeSznrIy-q_9s-18" value="Infrastructure Layer&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;(Repository 구현체, DB 설정, 외부 API Adapter)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1498.13" y="470" width="281.87" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
