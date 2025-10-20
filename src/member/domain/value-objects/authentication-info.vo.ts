@@ -1,4 +1,5 @@
 import { Email } from "@src/member/domain/value-objects/email.vo";
+import { HashedPassword } from "@src/member/domain/value-objects/hashed-password.vo";
 
 export class AuthenticationInfo {
   readonly email: Email;
