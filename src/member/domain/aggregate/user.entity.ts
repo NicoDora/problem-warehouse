@@ -74,5 +74,10 @@ export class User {
       newPassword,
       passwordHasher,
     );
+    this.markAsUpdated();
+  }
+
+  private markAsUpdated(): void {
+    this.updatedAt = new Date();
   }
 }
