@@ -40,4 +40,20 @@ export class AuthenticationInfo {
 
     return new AuthenticationInfo(email, password, provider);
   }
+
+  public async changePassword(
+    newPlainPassword: string,
+    passwordHasher: IPasswordHasher,
+  ): Promise<AuthenticationInfo> {
+    if (!this.provider.isLocal()) {
+      throw new Error("소셜 로그인 사용자는 비밀번호를 변경할 수 없습니다.");
+    }
+
+    const newHashedPassword = await HashedPassword.create(
+      newPlainPassword,
+      passwordHasher,
+    );
+
+    return new AuthenticationInfo(this.email, newHashedPassword, this.provider);
+  }
 }

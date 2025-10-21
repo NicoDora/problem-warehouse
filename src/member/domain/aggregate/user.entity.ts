@@ -1,3 +1,4 @@
+import { IPasswordHasher } from "@src/member/domain/ports/password-hasher.interface";
 import { AuthenticationInfo } from "@src/member/domain/value-objects/authentication-info.vo";
 import { Role, RoleEnum } from "@src/member/domain/value-objects/role.vo";
 import { UserProfile } from "@src/member/domain/value-objects/user-profile.vo";
@@ -50,5 +51,28 @@ export class User {
     );
 
     return user;
+  }
+
+  public async changePassword(
+    oldPassword: string,
+    newPassword: string,
+    passwordHasher: IPasswordHasher,
+  ): Promise<void> {
+    if (!this.authInfo.provider.isLocal()) {
+      throw new Error("소셜 로그인 사용자는 비밀번호를 변경할 수 없습니다.");
+    }
+
+    const isMatch = await this.authInfo.password?.compare(
+      oldPassword,
+      passwordHasher,
+    );
+    if (!isMatch) {
+      throw new Error("기존 비밀번호가 일치하지 않습니다.");
+    }
+
+    this.authInfo = await this.authInfo.changePassword(
+      newPassword,
+      passwordHasher,
+    );
   }
 }
