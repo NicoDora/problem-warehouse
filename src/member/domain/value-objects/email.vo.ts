@@ -8,15 +8,17 @@ export class Email {
   public readonly value: string;
 
   private constructor(value: string) {
-    this.value = value.toLocaleLowerCase().trim();
+    this.value = value;
   }
 
   public static create(email: string): Email {
-    if (!EMAIL_REGEX.test(email)) {
+    const trimmedEmail = email.trim();
+
+    if (!EMAIL_REGEX.test(trimmedEmail)) {
       throw new Error("Invalid email format");
     }
 
-    return new Email(email);
+    return new Email(trimmedEmail);
   }
 
   public equals(other: Email): boolean {
