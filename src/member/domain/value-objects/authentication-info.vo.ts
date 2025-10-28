@@ -1,4 +1,3 @@
-import { IEmailValidator } from "@src/member/domain/ports/email.validator.interface";
 import { IPasswordHasher } from "@src/member/domain/ports/password-hasher.interface";
 import { Email } from "@src/member/domain/value-objects/email.vo";
 import { HashedPassword } from "@src/member/domain/value-objects/hashed-password.vo";
@@ -23,10 +22,9 @@ export class AuthenticationInfo {
     emailString: string,
     plainPassword: string | null,
     providerString: string,
-    emailValidator: IEmailValidator,
     passwordHasher: IPasswordHasher,
   ): Promise<AuthenticationInfo> {
-    const email = Email.create(emailString, emailValidator);
+    const email = Email.create(emailString);
     const provider = LoginProvider.create(providerString);
     let password: HashedPassword | null = null;
 

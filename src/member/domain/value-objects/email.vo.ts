@@ -1,4 +1,4 @@
-import { IEmailValidator } from "@src/member/domain/ports/email.validator.interface";
+const EMAIL_REGEX = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
 /**
  * 이메일 주소를 나타내는 값 객체(Value Object).\
@@ -11,8 +11,8 @@ export class Email {
     this.value = value.toLocaleLowerCase().trim();
   }
 
-  public static create(email: string, validator: IEmailValidator): Email {
-    if (!validator.isValid(email)) {
+  public static create(email: string): Email {
+    if (!EMAIL_REGEX.test(email)) {
       throw new Error("Invalid email format");
     }
 
